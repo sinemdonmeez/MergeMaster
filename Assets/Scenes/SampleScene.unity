@@ -2041,19 +2041,16 @@ MonoBehaviour:
   - {fileID: 1917413774167185524, guid: b11a7ec4890619241b37b23f781a99b3, type: 3}
   - {fileID: 1917413774167185524, guid: 82da57011dc98304e89e222ecc3592ca, type: 3}
   RangerPlayers:
-  - {fileID: 5288531645997046345, guid: f16c455e3ac99124e9902c2024f9ec73, type: 3}
-  - {fileID: 5288531645997046345, guid: 55f0cdc8725030949bd2c3f7a1fca4ca, type: 3}
-  - {fileID: 5288531645997046345, guid: 65445680caae77a4c973f5fe54b47f98, type: 3}
-  - {fileID: 5288531645997046345, guid: 5b0f841034ea5f54f8a3121d8ee477f0, type: 3}
+  - {fileID: 1917413774167185524, guid: 97daeddc962685449b56292ac53a13fb, type: 3}
+  - {fileID: 1917413774167185524, guid: 5c8996b87350ef649b8028dc566ecdba, type: 3}
+  - {fileID: 1917413774167185524, guid: adb10593e0113a74d989059e169ab41b, type: 3}
+  - {fileID: 1917413774167185524, guid: 74b51b863136d9848b55510ff795f197, type: 3}
   EnemySets:
   - {fileID: 11400000, guid: 6832a4572e9ba4241aaff98c967c6c3c, type: 2}
   - {fileID: 11400000, guid: ab8c809867c54ff4ab9d7156bac108c1, type: 2}
   - {fileID: 11400000, guid: 5706d5a570f537f4587a25e062be96d2, type: 2}
   WarriorPlayersStat: []
-  RangerPlayersStat:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  RangerPlayersStat: []
   enemyStats: []
 --- !u!1 &1586644083
 GameObject:
@@ -2644,3 +2641,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharacterStateManagers: []
+  Player: {fileID: 0}
+  Enemy: {fileID: 0}
