@@ -7,13 +7,7 @@ public class Character : MonoBehaviour
 
     /* ------------------------------------------ */
 
-    public UnitType Type;
-
     public Animator Animator;
-
-    public SpriteRenderer SpriteRenderer;
-
-    public GameObject Graphic;
 
     /* ------------------------------------------ */
 

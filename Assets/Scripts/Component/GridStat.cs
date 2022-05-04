@@ -14,6 +14,8 @@ public class GridStat : MonoBehaviour
 
     Stats _stats;
 
+    CharacterStateManager _manager;
+
     public bool IsItFull=false;
 
     private void OnDrawGizmos()
@@ -31,6 +33,8 @@ public class GridStat : MonoBehaviour
 
                 Players.Add(other.gameObject);
                 _stats = Players[Players.Count - 1].GetComponent<Stats>();
+                _manager = _stats.gameObject.GetComponent<CharacterStateManager>();
+                _manager.GridStats.Add(this);
                 other.gameObject.transform.position = this.transform.position;
 
                 IsItFull = true;

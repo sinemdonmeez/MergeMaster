@@ -2641,5 +2641,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharacterStateManagers: []
-  Player: {fileID: 0}
-  Enemy: {fileID: 0}
+  Player: {fileID: 293110728}
+  Enemy: {fileID: 425223830}

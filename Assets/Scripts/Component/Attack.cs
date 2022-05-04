@@ -96,7 +96,7 @@ public class Attack : Identity
                 yield return _delay;
 
             //Set Damage
-            if (this.identity.Type != UnitType.Ranger)
+            if (_stats.Data.Type != UnitType.Ranger)
             {
                 if (Target)
                     Target.gameObject.GetComponent<TakeDamage>().SetDamage(_stats.Data.Attack);
@@ -228,7 +228,7 @@ public class Attack : Identity
             default:
                 break;
             case UnitType.Warrior:
-                switch (enemy.GetComponent<Stats>().identity.Type)
+                switch (enemy.GetComponent<Stats>().Data.Type)
                 {
                     default:
                         x = 0;
@@ -242,7 +242,7 @@ public class Attack : Identity
                 }
                 break;
             case UnitType.Ranger:
-                switch (enemy.GetComponent<Stats>().identity.Type)
+                switch (enemy.GetComponent<Stats>().Data.Type)
                 {
                     default:
                         x = 0;

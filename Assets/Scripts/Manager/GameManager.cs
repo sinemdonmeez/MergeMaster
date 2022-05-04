@@ -123,7 +123,15 @@ public class GameManager : MonoBehaviour
             } while (GridEnemy.transform.GetChild(random2).GetComponent<GridStat>().IsItFull);
             
             Vector3 pos = GridEnemy.gameObject.transform.GetChild(random2).transform.position;
+            GridEnemy.transform.GetChild(random2).GetComponent<GridStat>().IsItFull = true;
             Instantiate(EnemySets[random].Prefabs[i], pos, EnemySets[random].Prefabs[i].gameObject.transform.rotation);
+            GridEnemy.transform.GetChild(random2).GetComponent<GridStat>().IsItFull = true;
+
+        }
+
+        for(int i = 0; i < GridEnemy.transform.childCount; i++) 
+        {
+            Destroy(GridEnemy.transform.GetChild(i).gameObject);
         }
     }
 }
