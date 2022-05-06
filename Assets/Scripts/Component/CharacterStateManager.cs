@@ -95,12 +95,6 @@ public class CharacterStateManager : MonoBehaviour
 
 
     /* ------------------------------------------ */
-    private void OnDisable()
-    {
-        ComponentManager.instance.CharacterStateManager.Remove(Character);
-        StateManager.instance.CharacterStateManagers.Remove(this);
-    }
- 
 
     /* ------------------------------------------ */
 

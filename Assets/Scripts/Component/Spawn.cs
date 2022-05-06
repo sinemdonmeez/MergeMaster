@@ -9,8 +9,11 @@ public class Spawn : Identity
 
     public RuntimeAnimatorController Controller;
 
+    public string AnimationStateName="Spawn";
+
     public bool IsRunning;
 
+    WaitForSeconds _delay;
 
     private void Awake()
     {
@@ -43,7 +46,13 @@ public class Spawn : Identity
 
         Debug.Log("Spawn IEProcess");
         IsRunning = true;
-        yield return new WaitForSeconds(2.5f);
+        identity.Animator.Play(AnimationStateName);
+
+        //Wait till animation ends
+        yield return _delay;
+
+        while (identity.Animator.GetCurrentAnimatorStateInfo(0).IsName(AnimationStateName))
+            yield return _delay;
         IsRunning = false;
     }
 

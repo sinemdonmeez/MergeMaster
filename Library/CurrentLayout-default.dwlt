@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 592}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 542}
   m_MaxSize: {x: 22006, y: 20042}
   vertical: 0
-  controlID: 1374
+  controlID: 240
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 635, y: 542}
   m_MaxSize: {x: 18005, y: 20042}
   vertical: 1
-  controlID: 1375
+  controlID: 315
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 635, y: 271}
   m_MaxSize: {x: 18005, y: 10021}
   vertical: 0
-  controlID: 1376
+  controlID: 246
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -427,7 +427,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 44fbffff02420000
+      m_ExpandedIDs: 42fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -487,9 +487,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.0034814, y: 3.2389193, z: -2.1204822}
+    m_Target: {x: -0.99018264, y: 1.3837411, z: 0.5085268}
     speed: 2
-    m_Value: {x: 2.0034814, y: 3.2389193, z: -2.1204822}
+    m_Value: {x: -0.99018264, y: 1.3837411, z: 0.5085268}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -536,13 +536,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.057622176, y: 0.70244527, z: -0.057239186, w: -0.7070975}
+    m_Target: {x: -0.02130724, y: -0.00090267655, z: 0.000022087404, w: -0.9997794}
     speed: 2
-    m_Value: {x: -0.057622176, y: 0.70244527, z: -0.05723919, w: -0.70709753}
+    m_Value: {x: -0.02130724, y: -0.0009026765, z: 0.000022087403, w: -0.99977934}
   m_Size:
-    m_Target: 3.0200913
+    m_Target: 5.420092
     speed: 2
-    m_Value: 3.0200913
+    m_Value: 5.420092
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -793,22 +793,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Recordings
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Recordings
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Sinem\Documents\Unity\MergeMaster
+  m_LastProjectPath: C:\Users\Sinem\Documents\GitHub\MergeMaster
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c4550000
-    m_LastClickedID: 21956
-    m_ExpandedIDs: 00000000b6550000
+    m_SelectedIDs: 845c0000
+    m_LastClickedID: 23684
+    m_ExpandedIDs: 00000000785c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -836,7 +836,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b6550000
+    m_ExpandedIDs: 00000000785c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -930,22 +930,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Recordings
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Recordings
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Sinem\Documents\Unity\MergeMaster
+  m_LastProjectPath: C:\Users\Sinem\Documents\GitHub\MergeMaster
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c4550000
-    m_LastClickedID: 21956
-    m_ExpandedIDs: 00000000b6550000
+    m_SelectedIDs: 845c0000
+    m_LastClickedID: 23684
+    m_ExpandedIDs: 00000000785c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -973,7 +973,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b6550000
+    m_ExpandedIDs: 00000000785c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

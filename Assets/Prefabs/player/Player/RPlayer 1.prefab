@@ -1061,10 +1061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c6190fdd5bd33b4a973e616c6a1b882, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 1
   Animator: {fileID: 4777579999717705501}
-  SpriteRenderer: {fileID: 0}
-  Graphic: {fileID: 0}
 --- !u!114 &8830293904852079848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1239,6 +1236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Controller: {fileID: 9100000, guid: c31ad1c5c78d26243b7e030a4a98ce2a, type: 2}
+  AnimationStateName: Spawn
   IsRunning: 0
 --- !u!114 &2576165922170858128
 MonoBehaviour:
